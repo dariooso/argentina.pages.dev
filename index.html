@@ -1,5 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dario Dev Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #111;
+    }
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #ff00cc;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .btn {
+      background: #ff00cc;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: auto;
+    }
+    ul li {
+      background: rgba(255,255,255,0.1);
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <div class="logo">Dario Dev Studio</div>
+    <nav>
+      <a href="#productos">Extensiones</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-<p>Argentina</p>
-<p>under contruction.  22-07-24</p>
+  <section class="hero">
+    <h1>🚀 Creamos extensiones que transforman tu navegador</h1>
+    <p>Explorá nuestras herramientas creativas, psicodélicas y funcionales.</p>
+    <a href="#productos" class="btn">Ver productos</a>
+  </section>
 
+  <section id="productos">
+    <h2>🧩 Extensiones destacadas</h2>
+    <div class="card">
+      <h3>Psycho Soundscapes</h3>
+      <p>Explorá estados mentales con paisajes sonoros psicodélicos. Disponible como extensión de Chrome.</p>
+      <a href="#" class="btn">Ver en Chrome Store</a>
+    </div>
+    <div class="card">
+      <h3>Game Launcher</h3>
+      <p>Extensión para lanzar juegos interactivos con efectos visuales y configuraciones personalizadas.</p>
+      <a href="#" class="btn">Ver demo</a>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>💻 Servicios de programación</h2>
+    <ul>
+      <li>Desarrollo de extensiones Chrome</li>
+      <li>Automatización con Python y Colab</li>
+      <li>Integración de audio, video y visuales</li>
+      <li>Landing pages y promoción de apps</li>
+      <li>Diseño de interfaces interactivas</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>📬 Contacto</h2>
+    <p style="text-align:center;">¿Querés colaborar o contratar nuestros servicios?</p>
+    <p style="text-align:center;"><a href="mailto:tuemail@dominio.com" class="btn">Escribinos</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dario Dev Studio — Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
